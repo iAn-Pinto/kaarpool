@@ -1,0 +1,2522 @@
+[
+  {
+    "car": [
+      {
+        "id": "e4602bfa-f8b8-4fa3-a20d-53aa7fd3b709",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 35526,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-02T19:28:26.043Z",
+        "updated_at": "2023-10-02T16:24:53.523Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c7941a4-c63d-4169-b3cd-b277b5204c10",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 14303,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-10-03T06:21:09.276Z",
+        "updated_at": "2023-10-02T16:17:47.364Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0db9eeea-795a-4759-bbe9-651b27571a12",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 73068,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "created_at": "2023-10-02T21:28:13.144Z",
+        "updated_at": "2023-10-02T21:00:19.226Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8666945a-eb0b-467c-a671-26d6d9a533ad",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 17338,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "created_at": "2023-10-03T02:49:11.248Z",
+        "updated_at": "2023-10-02T16:33:40.841Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "daa35cd9-ee6f-4588-b8d3-22562abd3800",
+        "make": "BMW",
+        "model": "X5",
+        "year": 43684,
+        "color": "White",
+        "license_plate": "QWE456",
+        "created_at": "2023-10-02T07:23:58.051Z",
+        "updated_at": "2023-10-02T11:50:48.190Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "70a8775d-5832-48da-b8f5-a6fa6e63f087",
+        "start_location": "Central Park",
+        "end_location": "Times Square",
+        "start_time": "2023-10-03T01:27:51.560Z",
+        "end_time": "2023-10-03T00:18:56.746Z",
+        "seats_available": 94577,
+        "created_at": "2023-10-03T00:55:06.649Z",
+        "updated_at": "2023-10-02T10:50:04.488Z",
+        "car_id": "8666945a-eb0b-467c-a671-26d6d9a533ad"
+      },
+      {
+        "id": "afca6836-9d4b-41f6-8f12-78d7d86046ba",
+        "start_location": "Golden Gate Bridge",
+        "end_location": "Hollywood Walk of Fame",
+        "start_time": "2023-10-03T00:40:42.238Z",
+        "end_time": "2023-10-02T10:44:32.387Z",
+        "seats_available": 5905,
+        "created_at": "2023-10-02T21:20:01.143Z",
+        "updated_at": "2023-10-02T11:11:44.033Z",
+        "car_id": "5c7941a4-c63d-4169-b3cd-b277b5204c10"
+      },
+      {
+        "id": "3479e874-2b22-4b34-bf23-3c355c94db92",
+        "start_location": "Millennium Park",
+        "end_location": "Navy Pier",
+        "start_time": "2023-10-02T22:01:32.296Z",
+        "end_time": "2023-10-02T08:58:22.171Z",
+        "seats_available": 7072,
+        "created_at": "2023-10-02T22:01:59.863Z",
+        "updated_at": "2023-10-02T23:31:11.815Z",
+        "car_id": "0db9eeea-795a-4759-bbe9-651b27571a12"
+      },
+      {
+        "id": "c112b1bc-ab1d-423b-b773-ea339a3d9052",
+        "start_location": "Space Needle",
+        "end_location": "Pike Place Market",
+        "start_time": "2023-10-02T18:00:28.284Z",
+        "end_time": "2023-10-02T12:01:43.835Z",
+        "seats_available": 8008,
+        "created_at": "2023-10-02T12:36:08.175Z",
+        "updated_at": "2023-10-02T12:27:47.441Z",
+        "car_id": "5c7941a4-c63d-4169-b3cd-b277b5204c10"
+      },
+      {
+        "id": "b9db8731-da67-4045-9ee6-066735226a3c",
+        "start_location": "South Beach",
+        "end_location": "Art Deco Historic District",
+        "start_time": "2023-10-02T11:02:49.566Z",
+        "end_time": "2023-10-03T00:49:13.581Z",
+        "seats_available": 7263,
+        "created_at": "2023-10-02T23:48:39.518Z",
+        "updated_at": "2023-10-03T02:30:58.566Z",
+        "car_id": "e4602bfa-f8b8-4fa3-a20d-53aa7fd3b709"
+      }
+    ],
+    "booking": [
+      {
+        "id": "6fbf6d8c-0fab-496e-9912-c0cb23cc8dde",
+        "seat_count": 35214,
+        "status": "Confirmed",
+        "created_at": "2023-10-02T08:33:27.850Z",
+        "updated_at": "2023-10-02T10:19:12.113Z",
+        "ride_id": "b9db8731-da67-4045-9ee6-066735226a3c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41a7d532-2892-4dd9-b09b-8ba4a5d3ac10",
+        "seat_count": 80780,
+        "status": "Pending",
+        "created_at": "2023-10-02T10:40:58.999Z",
+        "updated_at": "2023-10-03T02:51:12.341Z",
+        "ride_id": "b9db8731-da67-4045-9ee6-066735226a3c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e177c5c0-bedf-44cf-8800-b2ad992b1b22",
+        "seat_count": 19411,
+        "status": "Cancelled",
+        "created_at": "2023-10-02T22:19:58.755Z",
+        "updated_at": "2023-10-02T19:04:28.881Z",
+        "ride_id": "3479e874-2b22-4b34-bf23-3c355c94db92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cff9ef45-63b6-408e-ac10-74a48dff7800",
+        "seat_count": 5424,
+        "status": "Completed",
+        "created_at": "2023-10-03T06:29:36.725Z",
+        "updated_at": "2023-10-02T13:38:30.593Z",
+        "ride_id": "b9db8731-da67-4045-9ee6-066735226a3c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b14ce5f4-821b-4f60-946e-fd007905bc11",
+        "seat_count": 63522,
+        "status": "On Hold",
+        "created_at": "2023-10-03T02:16:46.582Z",
+        "updated_at": "2023-10-03T01:27:59.540Z",
+        "ride_id": "c112b1bc-ab1d-423b-b773-ea339a3d9052",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "32917f4e-3f05-4b99-8e8b-fedb0fd888cc",
+        "rating": 93489,
+        "comments": "Great service!",
+        "created_at": "2023-10-02T15:48:30.591Z",
+        "updated_at": "2023-10-02T21:04:46.342Z",
+        "booking_id": "6fbf6d8c-0fab-496e-9912-c0cb23cc8dde"
+      },
+      {
+        "id": "86c9862f-6ac9-4117-96ba-fc466e0ada52",
+        "rating": 12915,
+        "comments": "Excellent experience",
+        "created_at": "2023-10-02T19:15:02.022Z",
+        "updated_at": "2023-10-02T20:21:22.292Z",
+        "booking_id": "b14ce5f4-821b-4f60-946e-fd007905bc11"
+      },
+      {
+        "id": "9276c988-e42c-47e4-a747-4d39c0b6c254",
+        "rating": 71971,
+        "comments": "Highly recommended",
+        "created_at": "2023-10-02T18:48:38.339Z",
+        "updated_at": "2023-10-02T19:11:16.298Z",
+        "booking_id": "41a7d532-2892-4dd9-b09b-8ba4a5d3ac10"
+      },
+      {
+        "id": "5a3a9d24-a327-48d6-8d29-b698f376e37b",
+        "rating": 81206,
+        "comments": "Could be better",
+        "created_at": "2023-10-03T03:55:51.304Z",
+        "updated_at": "2023-10-02T14:05:18.023Z",
+        "booking_id": "e177c5c0-bedf-44cf-8800-b2ad992b1b22"
+      },
+      {
+        "id": "e27b1afe-07ed-42c2-9827-5b57f5233495",
+        "rating": 75534,
+        "comments": "Not satisfied",
+        "created_at": "2023-10-02T20:12:26.644Z",
+        "updated_at": "2023-10-02T19:58:42.376Z",
+        "booking_id": "41a7d532-2892-4dd9-b09b-8ba4a5d3ac10"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6ad7fb0a-ace5-4836-a799-e58a728179f9",
+        "email": "Pamela.Ferry@roq.tech",
+        "firstName": "Max",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/912.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "02a7008a-52c6-4d99-b2e0-fa19f030af47",
+        "email": "Destiny.Crist31@roq.tech",
+        "firstName": "Shawna",
+        "lastName": "Koepp-Sanford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64801540",
+        "tenantId": null
+      },
+      {
+        "reference": "e2f69f6c-9a3e-4202-9cbb-e22e5bcb2d5b",
+        "email": "Nola.King@roq.tech",
+        "firstName": "Pauline",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24611839",
+        "tenantId": null
+      },
+      {
+        "reference": "e33c8846-1760-49d3-848f-075b3a4d388d",
+        "email": "Jaqueline.Sanford@roq.tech",
+        "firstName": "Manley",
+        "lastName": "Ondricka-Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "be9fe6bc-e6ab-44e4-a365-c3d5b93b76aa",
+        "email": "Darian.Bayer@roq.tech",
+        "firstName": "Alec",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/326.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "21fd1a97-5ea8-4397-aec1-e51856633711",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 4964,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-03T05:53:55.088Z",
+        "updated_at": "2023-10-02T17:41:13.037Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18efe1bb-06e5-495a-ae59-4f31e54233ec",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 57703,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-10-03T06:50:41.544Z",
+        "updated_at": "2023-10-02T18:32:03.449Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b288f7cb-b235-4196-9c96-de3a0f05edef",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 45099,
+        "color": "Green",
+        "license_plate": "123456",
+        "created_at": "2023-10-02T18:32:43.780Z",
+        "updated_at": "2023-10-03T01:02:14.385Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f426343-97f3-44a6-9d0c-9b060cb5c8e0",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 84620,
+        "color": "Silver",
+        "license_plate": "DEF789",
+        "created_at": "2023-10-02T07:36:37.845Z",
+        "updated_at": "2023-10-02T11:56:47.768Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6d7c08a-5370-41fd-8b7e-b098c4747f8d",
+        "make": "BMW",
+        "model": "X5",
+        "year": 73198,
+        "color": "Black",
+        "license_plate": "GHI123",
+        "created_at": "2023-10-03T02:42:00.064Z",
+        "updated_at": "2023-10-03T03:59:37.539Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "b83a4ccd-8820-4f10-8db7-965c6dcdeffe",
+        "start_location": "Central Park",
+        "end_location": "Times Square",
+        "start_time": "2023-10-02T16:01:32.112Z",
+        "end_time": "2023-10-03T07:08:02.296Z",
+        "seats_available": 90003,
+        "created_at": "2023-10-03T06:14:43.323Z",
+        "updated_at": "2023-10-02T14:52:09.716Z",
+        "car_id": "3f426343-97f3-44a6-9d0c-9b060cb5c8e0"
+      },
+      {
+        "id": "1c8bff68-c532-4a2c-8503-c19c39c001a4",
+        "start_location": "Golden Gate Bridge",
+        "end_location": "Hollywood Walk of Fame",
+        "start_time": "2023-10-02T23:36:21.244Z",
+        "end_time": "2023-10-02T13:52:06.299Z",
+        "seats_available": 90538,
+        "created_at": "2023-10-03T00:42:22.191Z",
+        "updated_at": "2023-10-02T18:58:43.472Z",
+        "car_id": "b288f7cb-b235-4196-9c96-de3a0f05edef"
+      },
+      {
+        "id": "962d8bcd-176f-487f-b2bf-18827236e265",
+        "start_location": "Millennium Park",
+        "end_location": "Navy Pier",
+        "start_time": "2023-10-02T11:36:20.710Z",
+        "end_time": "2023-10-03T00:22:34.786Z",
+        "seats_available": 23417,
+        "created_at": "2023-10-02T18:01:49.565Z",
+        "updated_at": "2023-10-03T06:32:19.204Z",
+        "car_id": "e6d7c08a-5370-41fd-8b7e-b098c4747f8d"
+      },
+      {
+        "id": "11af8f88-f2b7-4214-a781-33f10e1e7642",
+        "start_location": "Space Needle",
+        "end_location": "Pike Place Market",
+        "start_time": "2023-10-02T14:05:34.581Z",
+        "end_time": "2023-10-02T10:17:55.536Z",
+        "seats_available": 81363,
+        "created_at": "2023-10-03T00:52:48.084Z",
+        "updated_at": "2023-10-03T03:36:43.287Z",
+        "car_id": "e6d7c08a-5370-41fd-8b7e-b098c4747f8d"
+      },
+      {
+        "id": "7adead27-d415-4bb3-8792-53dea90140cf",
+        "start_location": "South Beach",
+        "end_location": "Art Deco Historic District",
+        "start_time": "2023-10-02T18:33:35.158Z",
+        "end_time": "2023-10-02T16:11:35.956Z",
+        "seats_available": 76032,
+        "created_at": "2023-10-03T00:27:44.263Z",
+        "updated_at": "2023-10-02T21:51:20.132Z",
+        "car_id": "3f426343-97f3-44a6-9d0c-9b060cb5c8e0"
+      }
+    ],
+    "booking": [
+      {
+        "id": "33b5101e-23f5-4691-a5c5-4667092da280",
+        "seat_count": 58955,
+        "status": "Confirmed",
+        "created_at": "2023-10-03T04:13:06.460Z",
+        "updated_at": "2023-10-03T03:34:52.484Z",
+        "ride_id": "11af8f88-f2b7-4214-a781-33f10e1e7642",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d01b95f-d714-4ea7-b886-5ed19aba1291",
+        "seat_count": 86755,
+        "status": "Pending",
+        "created_at": "2023-10-02T23:28:38.627Z",
+        "updated_at": "2023-10-02T17:19:55.103Z",
+        "ride_id": "962d8bcd-176f-487f-b2bf-18827236e265",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48e02f67-94a6-4c8f-83c8-e7d76c39b251",
+        "seat_count": 45970,
+        "status": "Cancelled",
+        "created_at": "2023-10-02T09:22:15.561Z",
+        "updated_at": "2023-10-02T12:37:48.185Z",
+        "ride_id": "b83a4ccd-8820-4f10-8db7-965c6dcdeffe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac0a68d5-a395-4a37-ad0b-046b80bb6dfe",
+        "seat_count": 87977,
+        "status": "Completed",
+        "created_at": "2023-10-02T15:51:46.962Z",
+        "updated_at": "2023-10-03T03:03:01.409Z",
+        "ride_id": "7adead27-d415-4bb3-8792-53dea90140cf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcb1fb94-7601-4923-a5b2-1e10d0a2c9c2",
+        "seat_count": 42348,
+        "status": "On Hold",
+        "created_at": "2023-10-03T03:50:18.744Z",
+        "updated_at": "2023-10-02T13:34:51.518Z",
+        "ride_id": "b83a4ccd-8820-4f10-8db7-965c6dcdeffe",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "09efb702-bc34-431d-9be1-f92dd797909b",
+        "rating": 77427,
+        "comments": "Great service!",
+        "created_at": "2023-10-02T19:23:51.686Z",
+        "updated_at": "2023-10-02T10:53:07.721Z",
+        "booking_id": "9d01b95f-d714-4ea7-b886-5ed19aba1291"
+      },
+      {
+        "id": "cbf8f5c0-b08b-49db-a0f6-b2e118edf78f",
+        "rating": 97364,
+        "comments": "Excellent experience",
+        "created_at": "2023-10-02T15:02:53.465Z",
+        "updated_at": "2023-10-02T15:12:58.518Z",
+        "booking_id": "9d01b95f-d714-4ea7-b886-5ed19aba1291"
+      },
+      {
+        "id": "074c1a8b-e099-4932-9a38-417687811ab9",
+        "rating": 6272,
+        "comments": "Highly recommended",
+        "created_at": "2023-10-03T00:15:59.901Z",
+        "updated_at": "2023-10-02T11:18:00.881Z",
+        "booking_id": "48e02f67-94a6-4c8f-83c8-e7d76c39b251"
+      },
+      {
+        "id": "a22751a2-4a78-4715-b9a2-06d379ba5cc9",
+        "rating": 3447,
+        "comments": "Could be better",
+        "created_at": "2023-10-02T22:56:17.205Z",
+        "updated_at": "2023-10-02T16:58:21.027Z",
+        "booking_id": "33b5101e-23f5-4691-a5c5-4667092da280"
+      },
+      {
+        "id": "e4ce7896-12b1-4c4c-8bf2-1fb6a4278cd2",
+        "rating": 56845,
+        "comments": "Needs improvement",
+        "created_at": "2023-10-02T14:28:34.016Z",
+        "updated_at": "2023-10-02T18:29:11.587Z",
+        "booking_id": "9d01b95f-d714-4ea7-b886-5ed19aba1291"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f560146c-a436-435a-9cc4-d2cc8157dbaa",
+        "email": "Claudine87@roq.tech",
+        "firstName": "Jimmy",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/155.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "122bfc6c-b25b-4d6c-ba7b-df3e56c85ab6",
+        "email": "Gerson.Jast@roq.tech",
+        "firstName": "Madalyn",
+        "lastName": "Gorczany",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94386803",
+        "tenantId": null
+      },
+      {
+        "reference": "920c592f-f983-4080-8789-216df82577d5",
+        "email": "Adolphus58@roq.tech",
+        "firstName": "Adrain",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24207272",
+        "tenantId": null
+      },
+      {
+        "reference": "38dbfe59-fe18-4dd0-bb3c-b3a6a08f9ebf",
+        "email": "Dusty85@roq.tech",
+        "firstName": "Solon",
+        "lastName": "Cormier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/216.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1e5cff38-ec5f-4587-8ed2-42a995372972",
+        "email": "Ashleigh.Veum30@roq.tech",
+        "firstName": "Cindy",
+        "lastName": "Wunsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/318.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "fb1d81a8-758d-49a4-b33e-bd83cc972c78",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 28603,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-02T22:40:46.979Z",
+        "updated_at": "2023-10-02T23:49:42.866Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "623a4556-ecec-4a51-b411-18d29f709111",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 70141,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-10-03T03:39:55.966Z",
+        "updated_at": "2023-10-02T11:51:26.225Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f58fe0aa-ae60-4dcc-9f6d-6144bcbc0454",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 22783,
+        "color": "Green",
+        "license_plate": "123456",
+        "created_at": "2023-10-02T08:39:43.216Z",
+        "updated_at": "2023-10-02T12:44:26.084Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30d7e7f8-0ec8-41e4-be33-8d69dd05ddce",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 62763,
+        "color": "Black",
+        "license_plate": "DEF456",
+        "created_at": "2023-10-02T21:14:45.648Z",
+        "updated_at": "2023-10-03T02:22:24.372Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88e4c7b8-9521-47bd-b2e5-ce3fece4dd0d",
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 33149,
+        "color": "White",
+        "license_plate": "GHI789",
+        "created_at": "2023-10-02T07:56:43.546Z",
+        "updated_at": "2023-10-02T22:44:18.984Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "1fe711b6-2d9a-44f1-b41d-178a7e017746",
+        "start_location": "123 Main St",
+        "end_location": "New York",
+        "start_time": "2023-10-03T00:44:50.830Z",
+        "end_time": "2023-10-02T11:29:36.134Z",
+        "seats_available": 50880,
+        "created_at": "2023-10-02T20:59:59.749Z",
+        "updated_at": "2023-10-02T21:58:04.496Z",
+        "car_id": "30d7e7f8-0ec8-41e4-be33-8d69dd05ddce"
+      },
+      {
+        "id": "f91059f5-56cb-4a81-aa12-0a11672632a1",
+        "start_location": "456 Elm St",
+        "end_location": "Los Angeles",
+        "start_time": "2023-10-02T18:59:53.200Z",
+        "end_time": "2023-10-02T15:25:56.303Z",
+        "seats_available": 81714,
+        "created_at": "2023-10-03T02:12:16.367Z",
+        "updated_at": "2023-10-02T12:28:25.768Z",
+        "car_id": "f58fe0aa-ae60-4dcc-9f6d-6144bcbc0454"
+      },
+      {
+        "id": "b4b97331-8314-4e08-9798-8d733f755f1e",
+        "start_location": "789 Oak St",
+        "end_location": "Chicago",
+        "start_time": "2023-10-02T14:41:28.275Z",
+        "end_time": "2023-10-03T01:15:11.994Z",
+        "seats_available": 54410,
+        "created_at": "2023-10-02T09:53:20.465Z",
+        "updated_at": "2023-10-02T22:08:18.831Z",
+        "car_id": "fb1d81a8-758d-49a4-b33e-bd83cc972c78"
+      },
+      {
+        "id": "24a78fbb-646b-4eea-81f2-a00c60e19c18",
+        "start_location": "321 Pine St",
+        "end_location": "Houston",
+        "start_time": "2023-10-02T09:56:08.474Z",
+        "end_time": "2023-10-02T13:51:37.509Z",
+        "seats_available": 23639,
+        "created_at": "2023-10-03T00:44:30.706Z",
+        "updated_at": "2023-10-03T07:04:36.583Z",
+        "car_id": "f58fe0aa-ae60-4dcc-9f6d-6144bcbc0454"
+      },
+      {
+        "id": "c186adde-3b72-44e5-9a5d-cc88ae59dca8",
+        "start_location": "654 Maple St",
+        "end_location": "Miami",
+        "start_time": "2023-10-02T15:13:31.434Z",
+        "end_time": "2023-10-02T19:21:38.903Z",
+        "seats_available": 21430,
+        "created_at": "2023-10-02T21:47:36.657Z",
+        "updated_at": "2023-10-03T01:13:36.316Z",
+        "car_id": "fb1d81a8-758d-49a4-b33e-bd83cc972c78"
+      }
+    ],
+    "booking": [
+      {
+        "id": "6fc978f1-5a64-458e-b6e1-18deb62932dd",
+        "seat_count": 65227,
+        "status": "Pending",
+        "created_at": "2023-10-02T07:27:15.888Z",
+        "updated_at": "2023-10-02T12:02:06.994Z",
+        "ride_id": "c186adde-3b72-44e5-9a5d-cc88ae59dca8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b9c745e-1eca-4b1a-8d34-51c0f2adb51f",
+        "seat_count": 38404,
+        "status": "Confirmed",
+        "created_at": "2023-10-02T18:05:08.071Z",
+        "updated_at": "2023-10-02T09:42:50.247Z",
+        "ride_id": "24a78fbb-646b-4eea-81f2-a00c60e19c18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "baca018e-d559-4d51-a0c9-3f3a2126048a",
+        "seat_count": 2881,
+        "status": "Cancelled",
+        "created_at": "2023-10-03T03:40:53.715Z",
+        "updated_at": "2023-10-03T07:18:20.169Z",
+        "ride_id": "1fe711b6-2d9a-44f1-b41d-178a7e017746",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "938d202f-13bd-40a6-bbf0-7e4fd808d6b8",
+        "seat_count": 18627,
+        "status": "Completed",
+        "created_at": "2023-10-03T06:59:15.760Z",
+        "updated_at": "2023-10-02T10:58:14.914Z",
+        "ride_id": "1fe711b6-2d9a-44f1-b41d-178a7e017746",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a1bc4d6-6cb4-4bf6-8283-26e6a096b6dd",
+        "seat_count": 75981,
+        "status": "On Hold",
+        "created_at": "2023-10-03T06:31:34.008Z",
+        "updated_at": "2023-10-02T20:57:24.644Z",
+        "ride_id": "b4b97331-8314-4e08-9798-8d733f755f1e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "d9263dc0-1cf9-4056-8fe1-8a62c97e787c",
+        "rating": 10918,
+        "comments": "Great service!",
+        "created_at": "2023-10-03T00:55:15.551Z",
+        "updated_at": "2023-10-02T20:55:04.663Z",
+        "booking_id": "9b9c745e-1eca-4b1a-8d34-51c0f2adb51f"
+      },
+      {
+        "id": "67f1d349-fd1a-4c48-81be-ce6955f52037",
+        "rating": 86687,
+        "comments": "Excellent experience",
+        "created_at": "2023-10-03T02:04:36.252Z",
+        "updated_at": "2023-10-03T02:16:55.877Z",
+        "booking_id": "6fc978f1-5a64-458e-b6e1-18deb62932dd"
+      },
+      {
+        "id": "6b590418-96fd-493d-a540-481ecc749014",
+        "rating": 9007,
+        "comments": "Could be better",
+        "created_at": "2023-10-02T21:39:53.298Z",
+        "updated_at": "2023-10-02T19:37:18.012Z",
+        "booking_id": "2a1bc4d6-6cb4-4bf6-8283-26e6a096b6dd"
+      },
+      {
+        "id": "603206de-9043-4761-85a0-49101671aac9",
+        "rating": 89415,
+        "comments": "Not satisfied",
+        "created_at": "2023-10-02T15:50:23.595Z",
+        "updated_at": "2023-10-03T01:05:39.522Z",
+        "booking_id": "6fc978f1-5a64-458e-b6e1-18deb62932dd"
+      },
+      {
+        "id": "5d94921e-3f3a-4966-b500-515036c254a2",
+        "rating": 935,
+        "comments": "Highly recommended",
+        "created_at": "2023-10-03T06:22:51.924Z",
+        "updated_at": "2023-10-02T16:07:12.581Z",
+        "booking_id": "6fc978f1-5a64-458e-b6e1-18deb62932dd"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7a409ea8-4114-4fe0-8b9f-334db6dc2a8e",
+        "email": "Johnnie.Ruecker@roq.tech",
+        "firstName": "Christiana",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28068774",
+        "tenantId": null
+      },
+      {
+        "reference": "e1341e3a-893f-44a6-8ba6-cfcd69c25eae",
+        "email": "Sedrick31@roq.tech",
+        "firstName": "Archibald",
+        "lastName": "Satterfield",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93162188",
+        "tenantId": null
+      },
+      {
+        "reference": "8f0df95c-949d-4d75-b1fa-518472403404",
+        "email": "Jace94@roq.tech",
+        "firstName": "Rupert",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/399.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2e2db0e2-148b-4bd1-8f77-a8ea56b05a2b",
+        "email": "Matilde.Hintz78@roq.tech",
+        "firstName": "Eddie",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12782820",
+        "tenantId": null
+      },
+      {
+        "reference": "02e24cd4-212a-4b20-81c3-ff68d8497812",
+        "email": "Noemie_Gutkowski35@roq.tech",
+        "firstName": "Modesto",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/678.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "9ade65f1-4d0f-41e3-81ba-864c9fd3274e",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 91842,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-03T05:09:18.614Z",
+        "updated_at": "2023-10-02T08:46:42.272Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2678807d-727f-4ca9-bcdc-f1289acb615d",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 21237,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-10-02T18:45:56.976Z",
+        "updated_at": "2023-10-02T16:32:57.484Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0160a56d-26af-4d06-b78c-fe77795ac3b8",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 94792,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "created_at": "2023-10-02T08:15:53.411Z",
+        "updated_at": "2023-10-02T20:03:40.890Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05571fe6-74e2-48e2-bc08-24e3d244601f",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 69561,
+        "color": "Yellow",
+        "license_plate": "789XYZ",
+        "created_at": "2023-10-02T22:29:49.301Z",
+        "updated_at": "2023-10-03T04:11:12.000Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2e81a8d-bbe7-45c8-a04d-7afa0dab0420",
+        "make": "BMW",
+        "model": "X5",
+        "year": 28420,
+        "color": "Black",
+        "license_plate": "QWERTY",
+        "created_at": "2023-10-02T14:03:02.198Z",
+        "updated_at": "2023-10-02T16:35:37.374Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "ea2d8bc9-614b-4609-a9cb-f41fdd65c120",
+        "start_location": "Central Park",
+        "end_location": "Times Square",
+        "start_time": "2023-10-02T23:13:48.604Z",
+        "end_time": "2023-10-03T04:46:09.287Z",
+        "seats_available": 1344,
+        "created_at": "2023-10-02T16:20:41.565Z",
+        "updated_at": "2023-10-02T11:44:56.334Z",
+        "car_id": "0160a56d-26af-4d06-b78c-fe77795ac3b8"
+      },
+      {
+        "id": "d32b8cbf-8e36-4c0c-ae48-7b2ea45d4417",
+        "start_location": "Santa Monica Pier",
+        "end_location": "Hollywood Walk of Fame",
+        "start_time": "2023-10-02T19:56:29.560Z",
+        "end_time": "2023-10-02T12:50:04.723Z",
+        "seats_available": 54798,
+        "created_at": "2023-10-02T23:52:16.024Z",
+        "updated_at": "2023-10-03T00:43:33.388Z",
+        "car_id": "f2e81a8d-bbe7-45c8-a04d-7afa0dab0420"
+      },
+      {
+        "id": "509b5528-201e-44c8-b230-f15135d0086b",
+        "start_location": "Millennium Park",
+        "end_location": "Navy Pier",
+        "start_time": "2023-10-03T02:35:41.082Z",
+        "end_time": "2023-10-03T06:05:20.870Z",
+        "seats_available": 71431,
+        "created_at": "2023-10-02T15:39:25.202Z",
+        "updated_at": "2023-10-03T02:26:38.464Z",
+        "car_id": "9ade65f1-4d0f-41e3-81ba-864c9fd3274e"
+      },
+      {
+        "id": "2d94894f-e552-499c-b29e-605ecbb797ac",
+        "start_location": "Space Center Houston",
+        "end_location": "Johnson Space Center",
+        "start_time": "2023-10-02T22:37:57.864Z",
+        "end_time": "2023-10-03T02:59:48.330Z",
+        "seats_available": 35690,
+        "created_at": "2023-10-03T07:22:22.990Z",
+        "updated_at": "2023-10-03T02:04:12.668Z",
+        "car_id": "05571fe6-74e2-48e2-bc08-24e3d244601f"
+      },
+      {
+        "id": "f38e03d0-e0d5-48fe-b216-f41b4b311eb1",
+        "start_location": "South Beach",
+        "end_location": "Art Deco Historic District",
+        "start_time": "2023-10-02T07:57:19.277Z",
+        "end_time": "2023-10-03T03:46:52.480Z",
+        "seats_available": 81973,
+        "created_at": "2023-10-02T12:28:38.605Z",
+        "updated_at": "2023-10-02T20:16:45.412Z",
+        "car_id": "2678807d-727f-4ca9-bcdc-f1289acb615d"
+      }
+    ],
+    "booking": [
+      {
+        "id": "31070412-23ee-415c-9095-e24fdb3ff2e9",
+        "seat_count": 28910,
+        "status": "Confirmed",
+        "created_at": "2023-10-03T04:06:08.852Z",
+        "updated_at": "2023-10-03T06:55:49.848Z",
+        "ride_id": "f38e03d0-e0d5-48fe-b216-f41b4b311eb1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df42d2f1-0c7e-4bc4-a49c-2339974afc62",
+        "seat_count": 96108,
+        "status": "Pending",
+        "created_at": "2023-10-03T07:13:59.082Z",
+        "updated_at": "2023-10-02T16:17:53.812Z",
+        "ride_id": "2d94894f-e552-499c-b29e-605ecbb797ac",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73691e1d-a05f-4102-a10d-dee8f9e6fabc",
+        "seat_count": 26664,
+        "status": "Cancelled",
+        "created_at": "2023-10-02T23:47:54.495Z",
+        "updated_at": "2023-10-02T12:15:51.025Z",
+        "ride_id": "d32b8cbf-8e36-4c0c-ae48-7b2ea45d4417",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fed79a01-579b-451d-a53f-8be458c4a764",
+        "seat_count": 59346,
+        "status": "Completed",
+        "created_at": "2023-10-03T04:40:01.733Z",
+        "updated_at": "2023-10-02T11:46:19.070Z",
+        "ride_id": "2d94894f-e552-499c-b29e-605ecbb797ac",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "413ae8ae-cede-488b-84bf-072736db73b9",
+        "seat_count": 72765,
+        "status": "On Hold",
+        "created_at": "2023-10-03T03:21:25.574Z",
+        "updated_at": "2023-10-02T16:04:31.728Z",
+        "ride_id": "d32b8cbf-8e36-4c0c-ae48-7b2ea45d4417",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "6fb5a6de-ff1d-4d96-ba7f-affeb77a1035",
+        "rating": 71021,
+        "comments": "Great service!",
+        "created_at": "2023-10-03T06:17:12.631Z",
+        "updated_at": "2023-10-03T03:22:46.856Z",
+        "booking_id": "df42d2f1-0c7e-4bc4-a49c-2339974afc62"
+      },
+      {
+        "id": "9d2d5147-04a1-43b2-9f54-3792b77f5fea",
+        "rating": 94118,
+        "comments": "Excellent experience",
+        "created_at": "2023-10-02T16:43:52.175Z",
+        "updated_at": "2023-10-03T00:43:19.859Z",
+        "booking_id": "fed79a01-579b-451d-a53f-8be458c4a764"
+      },
+      {
+        "id": "a38d2caa-7abd-4f07-aaae-4095b1c95d58",
+        "rating": 71341,
+        "comments": "Could be better",
+        "created_at": "2023-10-02T15:44:10.760Z",
+        "updated_at": "2023-10-02T15:46:37.593Z",
+        "booking_id": "73691e1d-a05f-4102-a10d-dee8f9e6fabc"
+      },
+      {
+        "id": "d342cd70-e228-4479-8b9e-c1cb17a40694",
+        "rating": 64715,
+        "comments": "Not satisfied",
+        "created_at": "2023-10-02T21:21:44.345Z",
+        "updated_at": "2023-10-02T18:55:55.737Z",
+        "booking_id": "31070412-23ee-415c-9095-e24fdb3ff2e9"
+      },
+      {
+        "id": "4b8b2197-99be-4999-afed-2c99ab97befd",
+        "rating": 69803,
+        "comments": "Highly recommended",
+        "created_at": "2023-10-02T23:42:55.591Z",
+        "updated_at": "2023-10-03T03:38:01.501Z",
+        "booking_id": "73691e1d-a05f-4102-a10d-dee8f9e6fabc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8f684076-58b0-4169-8388-6fb140d27017",
+        "email": "Vidal_Koss@roq.tech",
+        "firstName": "Jodie",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/621.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5ef9b3e1-507b-422f-8444-674fdcf9c984",
+        "email": "Josefa71@roq.tech",
+        "firstName": "Brooke",
+        "lastName": "Larkin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58702179",
+        "tenantId": null
+      },
+      {
+        "reference": "32cc22c7-c387-4a20-b87e-cba870e3fd2b",
+        "email": "Blake42@roq.tech",
+        "firstName": "Yazmin",
+        "lastName": "Schultz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1135.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dd9e19a1-891e-40a7-8e64-19c7b967cae3",
+        "email": "Claudia_Hodkiewicz-Bechtelar54@roq.tech",
+        "firstName": "Nels",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19128615",
+        "tenantId": null
+      },
+      {
+        "reference": "5492b6cc-54f9-41ff-97c6-c586ae0111a0",
+        "email": "Elmore52@roq.tech",
+        "firstName": "Kelvin",
+        "lastName": "Torp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/428.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "045d8f51-e654-4719-aebc-767a6106f491",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 32958,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-02T17:24:02.324Z",
+        "updated_at": "2023-10-02T10:34:51.943Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00bb8564-a050-46fc-b29b-e6250749c7c4",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 19866,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-10-02T22:22:34.332Z",
+        "updated_at": "2023-10-03T06:41:41.673Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb5da463-667e-4d8a-b526-28dd13004a89",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 47879,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "created_at": "2023-10-02T12:37:38.211Z",
+        "updated_at": "2023-10-02T19:34:40.018Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "547a143b-defd-4a8a-867b-61be396c0134",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 37070,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "created_at": "2023-10-03T05:03:17.497Z",
+        "updated_at": "2023-10-02T19:23:27.809Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e46203fa-9e22-41b9-b993-120cc5ca933b",
+        "make": "BMW",
+        "model": "X5",
+        "year": 35467,
+        "color": "White",
+        "license_plate": "456DEF",
+        "created_at": "2023-10-02T10:12:01.848Z",
+        "updated_at": "2023-10-02T20:47:42.766Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "58ccb5a4-23c8-46c3-a27f-f6788b4e7409",
+        "start_location": "Central Park",
+        "end_location": "Times Square",
+        "start_time": "2023-10-02T16:37:58.174Z",
+        "end_time": "2023-10-02T10:39:19.515Z",
+        "seats_available": 42966,
+        "created_at": "2023-10-02T14:58:35.901Z",
+        "updated_at": "2023-10-02T16:23:40.944Z",
+        "car_id": "547a143b-defd-4a8a-867b-61be396c0134"
+      },
+      {
+        "id": "9258ca41-30f1-49e9-a825-ab77c072fdd3",
+        "start_location": "Santa Monica Pier",
+        "end_location": "Hollywood Walk of Fame",
+        "start_time": "2023-10-02T16:46:37.514Z",
+        "end_time": "2023-10-02T09:00:41.205Z",
+        "seats_available": 24149,
+        "created_at": "2023-10-02T15:06:06.518Z",
+        "updated_at": "2023-10-02T07:55:59.917Z",
+        "car_id": "045d8f51-e654-4719-aebc-767a6106f491"
+      },
+      {
+        "id": "7adcc761-9c9a-4788-9cfb-45bcd510fbcb",
+        "start_location": "Millennium Park",
+        "end_location": "Navy Pier",
+        "start_time": "2023-10-02T11:35:23.119Z",
+        "end_time": "2023-10-02T11:59:42.707Z",
+        "seats_available": 9001,
+        "created_at": "2023-10-02T09:56:02.503Z",
+        "updated_at": "2023-10-02T18:10:19.579Z",
+        "car_id": "e46203fa-9e22-41b9-b993-120cc5ca933b"
+      },
+      {
+        "id": "c19d6b26-95fb-4ed6-a890-304eab38bac5",
+        "start_location": "Discovery Green",
+        "end_location": "Space Center Houston",
+        "start_time": "2023-10-02T18:01:36.192Z",
+        "end_time": "2023-10-03T03:28:55.009Z",
+        "seats_available": 35299,
+        "created_at": "2023-10-02T12:10:42.632Z",
+        "updated_at": "2023-10-02T19:24:51.106Z",
+        "car_id": "e46203fa-9e22-41b9-b993-120cc5ca933b"
+      },
+      {
+        "id": "31178d34-7099-45e4-941f-7e53e31a2903",
+        "start_location": "South Beach",
+        "end_location": "Art Deco Historic District",
+        "start_time": "2023-10-02T15:45:32.657Z",
+        "end_time": "2023-10-02T12:29:36.009Z",
+        "seats_available": 20311,
+        "created_at": "2023-10-02T08:17:51.268Z",
+        "updated_at": "2023-10-02T08:43:39.872Z",
+        "car_id": "00bb8564-a050-46fc-b29b-e6250749c7c4"
+      }
+    ],
+    "booking": [
+      {
+        "id": "937cac5a-a130-48b3-9c4b-6d41e1bc6464",
+        "seat_count": 97167,
+        "status": "Pending",
+        "created_at": "2023-10-02T11:23:28.951Z",
+        "updated_at": "2023-10-03T04:36:43.150Z",
+        "ride_id": "c19d6b26-95fb-4ed6-a890-304eab38bac5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cff94c68-31f8-402a-a10a-6f750c7e6f34",
+        "seat_count": 20112,
+        "status": "Confirmed",
+        "created_at": "2023-10-02T16:37:54.438Z",
+        "updated_at": "2023-10-02T09:42:38.124Z",
+        "ride_id": "7adcc761-9c9a-4788-9cfb-45bcd510fbcb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "720048b8-7588-4ec0-9aa6-37cd165e331e",
+        "seat_count": 14612,
+        "status": "Cancelled",
+        "created_at": "2023-10-02T23:44:06.740Z",
+        "updated_at": "2023-10-03T04:18:49.997Z",
+        "ride_id": "58ccb5a4-23c8-46c3-a27f-f6788b4e7409",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3136ad3-2e91-48d8-b49d-d401196c4f6a",
+        "seat_count": 77548,
+        "status": "Completed",
+        "created_at": "2023-10-02T20:02:08.367Z",
+        "updated_at": "2023-10-02T12:29:36.333Z",
+        "ride_id": "9258ca41-30f1-49e9-a825-ab77c072fdd3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b61f497-a0c5-4c49-91b6-5d094ee94593",
+        "seat_count": 84276,
+        "status": "On Hold",
+        "created_at": "2023-10-03T06:29:32.557Z",
+        "updated_at": "2023-10-02T23:29:15.139Z",
+        "ride_id": "c19d6b26-95fb-4ed6-a890-304eab38bac5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "ddc192d9-a188-4cc0-b06f-05a22b79e0cd",
+        "rating": 48816,
+        "comments": "Great service!",
+        "created_at": "2023-10-02T12:31:48.326Z",
+        "updated_at": "2023-10-02T13:13:11.419Z",
+        "booking_id": "cff94c68-31f8-402a-a10a-6f750c7e6f34"
+      },
+      {
+        "id": "3f14eb22-0919-48cc-9d66-260dbec724c3",
+        "rating": 39420,
+        "comments": "Excellent experience!",
+        "created_at": "2023-10-02T21:48:50.743Z",
+        "updated_at": "2023-10-02T18:40:09.885Z",
+        "booking_id": "720048b8-7588-4ec0-9aa6-37cd165e331e"
+      },
+      {
+        "id": "2bcd5c8e-5f90-4523-b113-f633a47b383e",
+        "rating": 206,
+        "comments": "Highly recommended!",
+        "created_at": "2023-10-02T10:20:18.610Z",
+        "updated_at": "2023-10-03T00:42:45.261Z",
+        "booking_id": "720048b8-7588-4ec0-9aa6-37cd165e331e"
+      },
+      {
+        "id": "efda75ea-458b-4d9a-898a-5dd28dddd52d",
+        "rating": 54548,
+        "comments": "Could be better.",
+        "created_at": "2023-10-02T07:47:16.755Z",
+        "updated_at": "2023-10-02T21:53:52.088Z",
+        "booking_id": "d3136ad3-2e91-48d8-b49d-d401196c4f6a"
+      },
+      {
+        "id": "6751fb4e-dba0-4c7f-afd1-08497fc24148",
+        "rating": 26692,
+        "comments": "Needs improvement.",
+        "created_at": "2023-10-02T10:28:10.245Z",
+        "updated_at": "2023-10-02T22:35:12.260Z",
+        "booking_id": "0b61f497-a0c5-4c49-91b6-5d094ee94593"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3cc1cef9-6587-4371-a655-e197b18e751b",
+        "email": "Colt.Farrell18@roq.tech",
+        "firstName": "Pierce",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/53.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "58f66b98-1fcb-4373-8cbb-e80aaf49c2a9",
+        "email": "Rick_Johns21@roq.tech",
+        "firstName": "Rocio",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60229695",
+        "tenantId": null
+      },
+      {
+        "reference": "08089b74-646c-4ef0-bb3f-59456fa6eb2b",
+        "email": "Maurine20@roq.tech",
+        "firstName": "Quinten",
+        "lastName": "Brekke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/952.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "acc60ed5-2287-48ef-9b4b-6816a7d3ae95",
+        "email": "Freda.Roob@roq.tech",
+        "firstName": "Magdalen",
+        "lastName": "Langworth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19146109",
+        "tenantId": null
+      },
+      {
+        "reference": "100520db-a725-40ef-9cd9-98e5606cba52",
+        "email": "Kelli60@roq.tech",
+        "firstName": "Dessie",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/196.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "c2c9c149-a5bd-441e-9672-6525130cf130",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 45684,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-03T05:53:51.224Z",
+        "updated_at": "2023-10-02T12:11:25.488Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d049d2d6-15c3-49fb-9e34-e611f78ea9c0",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 45611,
+        "color": "Blue",
+        "license_plate": "XYZ456",
+        "created_at": "2023-10-02T07:55:44.276Z",
+        "updated_at": "2023-10-02T07:27:26.995Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d913a2ea-e522-4670-b729-cec2f3af591b",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 30616,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "created_at": "2023-10-03T04:58:14.092Z",
+        "updated_at": "2023-10-02T14:52:11.189Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8b2c1ba-5f46-4aa6-902e-eeb31b11320f",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 66047,
+        "color": "Black",
+        "license_plate": "456XYZ",
+        "created_at": "2023-10-02T10:12:56.472Z",
+        "updated_at": "2023-10-02T21:46:53.356Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4636b1e-9512-4e73-8166-d6830735693c",
+        "make": "BMW",
+        "model": "X5",
+        "year": 17122,
+        "color": "White",
+        "license_plate": "789DEF",
+        "created_at": "2023-10-02T16:15:49.918Z",
+        "updated_at": "2023-10-02T14:36:08.751Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "02c56b6c-1949-45ef-a885-2da1662a1163",
+        "start_location": "Central Park",
+        "end_location": "Times Square",
+        "start_time": "2023-10-03T00:23:37.172Z",
+        "end_time": "2023-10-02T14:28:04.408Z",
+        "seats_available": 27176,
+        "created_at": "2023-10-03T03:51:21.396Z",
+        "updated_at": "2023-10-03T04:59:54.063Z",
+        "car_id": "e4636b1e-9512-4e73-8166-d6830735693c"
+      },
+      {
+        "id": "03fb0508-bbdb-4ad0-84e5-1a2e91c0c4f0",
+        "start_location": "Santa Monica Pier",
+        "end_location": "Hollywood Walk of Fame",
+        "start_time": "2023-10-02T17:33:06.680Z",
+        "end_time": "2023-10-02T23:31:13.277Z",
+        "seats_available": 66272,
+        "created_at": "2023-10-02T23:23:48.086Z",
+        "updated_at": "2023-10-02T11:30:19.552Z",
+        "car_id": "e4636b1e-9512-4e73-8166-d6830735693c"
+      },
+      {
+        "id": "45f56276-3b1d-4d28-bb7a-226d927b2334",
+        "start_location": "Millennium Park",
+        "end_location": "Navy Pier",
+        "start_time": "2023-10-02T22:46:58.709Z",
+        "end_time": "2023-10-02T23:51:50.205Z",
+        "seats_available": 1438,
+        "created_at": "2023-10-02T07:32:36.605Z",
+        "updated_at": "2023-10-02T11:41:40.445Z",
+        "car_id": "e4636b1e-9512-4e73-8166-d6830735693c"
+      },
+      {
+        "id": "87539673-6e97-4689-aad9-84fedd2a8fe4",
+        "start_location": "Space Center Houston",
+        "end_location": "Johnson Space Center",
+        "start_time": "2023-10-02T13:44:26.134Z",
+        "end_time": "2023-10-02T16:16:32.048Z",
+        "seats_available": 97935,
+        "created_at": "2023-10-02T19:36:20.427Z",
+        "updated_at": "2023-10-02T14:58:54.948Z",
+        "car_id": "b8b2c1ba-5f46-4aa6-902e-eeb31b11320f"
+      },
+      {
+        "id": "40477142-5454-4eb7-aaed-70797592af41",
+        "start_location": "Liberty Bell",
+        "end_location": "Independence Hall",
+        "start_time": "2023-10-02T20:04:27.247Z",
+        "end_time": "2023-10-03T01:37:15.549Z",
+        "seats_available": 56319,
+        "created_at": "2023-10-02T10:18:39.099Z",
+        "updated_at": "2023-10-03T00:11:52.713Z",
+        "car_id": "d049d2d6-15c3-49fb-9e34-e611f78ea9c0"
+      }
+    ],
+    "booking": [
+      {
+        "id": "c4f7648b-1487-4ecd-8e3c-fca2ba27f48f",
+        "seat_count": 87289,
+        "status": "Pending",
+        "created_at": "2023-10-02T15:51:56.392Z",
+        "updated_at": "2023-10-03T02:49:13.615Z",
+        "ride_id": "45f56276-3b1d-4d28-bb7a-226d927b2334",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b0188cd-e41b-4da3-8d67-3175af259d7b",
+        "seat_count": 66706,
+        "status": "Confirmed",
+        "created_at": "2023-10-02T17:14:23.324Z",
+        "updated_at": "2023-10-02T08:28:15.184Z",
+        "ride_id": "03fb0508-bbdb-4ad0-84e5-1a2e91c0c4f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29d1e45e-15a6-4656-8725-be545b61dc66",
+        "seat_count": 96956,
+        "status": "Cancelled",
+        "created_at": "2023-10-02T07:50:40.107Z",
+        "updated_at": "2023-10-02T12:13:55.670Z",
+        "ride_id": "03fb0508-bbdb-4ad0-84e5-1a2e91c0c4f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6045da4f-03b8-4eff-80f3-1b9de7354c40",
+        "seat_count": 22638,
+        "status": "Completed",
+        "created_at": "2023-10-02T10:21:14.593Z",
+        "updated_at": "2023-10-02T07:25:56.949Z",
+        "ride_id": "87539673-6e97-4689-aad9-84fedd2a8fe4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a277e7ae-ace2-4f5b-b50f-0f1dd294ef73",
+        "seat_count": 30155,
+        "status": "On Hold",
+        "created_at": "2023-10-02T09:01:23.679Z",
+        "updated_at": "2023-10-02T13:32:42.570Z",
+        "ride_id": "87539673-6e97-4689-aad9-84fedd2a8fe4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "4a1449e8-2c87-4e42-9b9f-75e26a75792e",
+        "rating": 63799,
+        "comments": "Great service!",
+        "created_at": "2023-10-03T05:29:29.164Z",
+        "updated_at": "2023-10-03T02:39:12.461Z",
+        "booking_id": "c4f7648b-1487-4ecd-8e3c-fca2ba27f48f"
+      },
+      {
+        "id": "57f98b05-8255-46bf-8a76-31c4f86a9cc9",
+        "rating": 68166,
+        "comments": "Excellent experience",
+        "created_at": "2023-10-02T12:38:00.961Z",
+        "updated_at": "2023-10-02T21:52:01.678Z",
+        "booking_id": "6045da4f-03b8-4eff-80f3-1b9de7354c40"
+      },
+      {
+        "id": "984b71bc-29ec-4962-a411-5bd6e0aaed0d",
+        "rating": 77756,
+        "comments": "Could be better",
+        "created_at": "2023-10-02T23:06:31.054Z",
+        "updated_at": "2023-10-03T00:24:13.814Z",
+        "booking_id": "29d1e45e-15a6-4656-8725-be545b61dc66"
+      },
+      {
+        "id": "e2da73c7-ddce-40ab-b475-194810d1da90",
+        "rating": 49704,
+        "comments": "Highly recommended",
+        "created_at": "2023-10-02T12:51:49.237Z",
+        "updated_at": "2023-10-02T20:18:12.250Z",
+        "booking_id": "9b0188cd-e41b-4da3-8d67-3175af259d7b"
+      },
+      {
+        "id": "a3571c0a-6a55-4c91-93e2-73d548097a2c",
+        "rating": 67196,
+        "comments": "Average service",
+        "created_at": "2023-10-03T02:26:02.055Z",
+        "updated_at": "2023-10-02T07:51:41.259Z",
+        "booking_id": "a277e7ae-ace2-4f5b-b50f-0f1dd294ef73"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d6f81dc9-6a6b-45fa-81b3-544c347aeebd",
+        "email": "Peggie_Bednar@roq.tech",
+        "firstName": "Megane",
+        "lastName": "Gottlieb",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57125010",
+        "tenantId": null
+      },
+      {
+        "reference": "5f9661cd-aaab-4de1-a83a-8df99a40aa58",
+        "email": "Oleta_Hilpert@roq.tech",
+        "firstName": "Joelle",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39716773",
+        "tenantId": null
+      },
+      {
+        "reference": "49a1b5bb-af28-4688-a61a-5ca8d00937cd",
+        "email": "Elinore30@roq.tech",
+        "firstName": "Chase",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21653487",
+        "tenantId": null
+      },
+      {
+        "reference": "bc61d966-3ada-4ff0-b30f-04c9470b1525",
+        "email": "Mason.Runte@roq.tech",
+        "firstName": "Annabel",
+        "lastName": "Heller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52662300",
+        "tenantId": null
+      },
+      {
+        "reference": "82322628-509e-4302-aab4-14973196a019",
+        "email": "Aleen_Klein68@roq.tech",
+        "firstName": "Vida",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57824502",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "260e1d6f-0c61-47ec-b8ba-ca6b998d1862",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 523,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-02T23:08:32.290Z",
+        "updated_at": "2023-10-02T20:59:02.078Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc707030-46fd-4949-988f-1528cee9fba8",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 85702,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-10-02T14:39:02.009Z",
+        "updated_at": "2023-10-02T18:52:23.053Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad08fde9-fbdb-49ec-8f9c-b2074cf70e6d",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 78924,
+        "color": "Green",
+        "license_plate": "123456",
+        "created_at": "2023-10-03T05:14:43.154Z",
+        "updated_at": "2023-10-03T04:28:49.779Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96b8cd78-efc7-4539-abd8-298fd321fa38",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 5970,
+        "color": "Black",
+        "license_plate": "DEF789",
+        "created_at": "2023-10-02T10:55:06.787Z",
+        "updated_at": "2023-10-03T02:06:53.360Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a977aa01-9ba7-4eb2-ad6a-e8f9d1b05c0b",
+        "make": "BMW",
+        "model": "X5",
+        "year": 96857,
+        "color": "White",
+        "license_plate": "GHI123",
+        "created_at": "2023-10-02T15:45:01.493Z",
+        "updated_at": "2023-10-02T21:06:38.076Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "2285bbf4-a30f-4c9d-bfef-c80f53256737",
+        "start_location": "Central Park",
+        "end_location": "Times Square",
+        "start_time": "2023-10-02T13:51:02.841Z",
+        "end_time": "2023-10-02T18:54:15.921Z",
+        "seats_available": 44668,
+        "created_at": "2023-10-03T03:54:08.180Z",
+        "updated_at": "2023-10-02T17:20:26.561Z",
+        "car_id": "dc707030-46fd-4949-988f-1528cee9fba8"
+      },
+      {
+        "id": "9be98c4e-be0d-48cf-8a8c-299c3a460e67",
+        "start_location": "Santa Monica Pier",
+        "end_location": "Hollywood Walk of Fame",
+        "start_time": "2023-10-02T10:18:33.960Z",
+        "end_time": "2023-10-03T02:34:51.178Z",
+        "seats_available": 8916,
+        "created_at": "2023-10-03T01:23:08.217Z",
+        "updated_at": "2023-10-02T17:33:59.929Z",
+        "car_id": "96b8cd78-efc7-4539-abd8-298fd321fa38"
+      },
+      {
+        "id": "3b4db294-32c6-46b0-b36f-01ec120efb3b",
+        "start_location": "Millennium Park",
+        "end_location": "Navy Pier",
+        "start_time": "2023-10-03T06:05:13.467Z",
+        "end_time": "2023-10-03T02:28:29.449Z",
+        "seats_available": 15569,
+        "created_at": "2023-10-03T04:01:00.947Z",
+        "updated_at": "2023-10-02T15:21:16.449Z",
+        "car_id": "a977aa01-9ba7-4eb2-ad6a-e8f9d1b05c0b"
+      },
+      {
+        "id": "f75af243-afd9-46a3-b3c7-0bd83d73d91d",
+        "start_location": "Discovery Green",
+        "end_location": "Space Center Houston",
+        "start_time": "2023-10-03T06:59:00.449Z",
+        "end_time": "2023-10-02T21:53:58.854Z",
+        "seats_available": 25123,
+        "created_at": "2023-10-02T21:16:05.059Z",
+        "updated_at": "2023-10-03T03:54:40.859Z",
+        "car_id": "ad08fde9-fbdb-49ec-8f9c-b2074cf70e6d"
+      },
+      {
+        "id": "f075df9b-03d9-4dab-a3f4-e0fd20247349",
+        "start_location": "South Beach",
+        "end_location": "Art Deco Historic District",
+        "start_time": "2023-10-02T13:21:06.456Z",
+        "end_time": "2023-10-02T16:57:51.698Z",
+        "seats_available": 15988,
+        "created_at": "2023-10-03T07:21:21.731Z",
+        "updated_at": "2023-10-03T03:32:44.691Z",
+        "car_id": "a977aa01-9ba7-4eb2-ad6a-e8f9d1b05c0b"
+      }
+    ],
+    "booking": [
+      {
+        "id": "374569b6-284d-4e1c-80a5-0004651ad51e",
+        "seat_count": 39945,
+        "status": "Confirmed",
+        "created_at": "2023-10-02T13:40:35.011Z",
+        "updated_at": "2023-10-02T21:05:11.786Z",
+        "ride_id": "f075df9b-03d9-4dab-a3f4-e0fd20247349",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "374eeaeb-d7c6-4e05-9b7b-1b2b189c3337",
+        "seat_count": 92836,
+        "status": "Pending",
+        "created_at": "2023-10-02T23:27:29.727Z",
+        "updated_at": "2023-10-02T19:40:41.499Z",
+        "ride_id": "3b4db294-32c6-46b0-b36f-01ec120efb3b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3a1fd03-e4b2-4426-8133-d89bc4de28d7",
+        "seat_count": 51271,
+        "status": "Cancelled",
+        "created_at": "2023-10-02T23:41:12.576Z",
+        "updated_at": "2023-10-02T22:02:43.567Z",
+        "ride_id": "9be98c4e-be0d-48cf-8a8c-299c3a460e67",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85aea095-5267-4e96-8b33-56e69449d769",
+        "seat_count": 42007,
+        "status": "Completed",
+        "created_at": "2023-10-03T01:42:26.694Z",
+        "updated_at": "2023-10-02T17:55:36.966Z",
+        "ride_id": "9be98c4e-be0d-48cf-8a8c-299c3a460e67",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ffeb949-08b0-455d-9fe9-93cbcd98d2ad",
+        "seat_count": 85172,
+        "status": "On Hold",
+        "created_at": "2023-10-02T07:36:21.073Z",
+        "updated_at": "2023-10-02T07:56:28.853Z",
+        "ride_id": "9be98c4e-be0d-48cf-8a8c-299c3a460e67",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "3496f0cf-7c2b-4ed0-bd9c-bceb707c9de3",
+        "rating": 67489,
+        "comments": "Great service!",
+        "created_at": "2023-10-02T20:36:00.377Z",
+        "updated_at": "2023-10-03T06:10:31.762Z",
+        "booking_id": "374569b6-284d-4e1c-80a5-0004651ad51e"
+      },
+      {
+        "id": "773f37d2-5cee-4e83-9a40-f2569353156a",
+        "rating": 89357,
+        "comments": "Excellent experience",
+        "created_at": "2023-10-02T23:49:17.849Z",
+        "updated_at": "2023-10-03T07:06:59.423Z",
+        "booking_id": "85aea095-5267-4e96-8b33-56e69449d769"
+      },
+      {
+        "id": "2e205809-f7b0-41a1-ac3b-bf82efff4b74",
+        "rating": 21116,
+        "comments": "Highly recommended",
+        "created_at": "2023-10-02T17:59:40.979Z",
+        "updated_at": "2023-10-02T14:48:25.021Z",
+        "booking_id": "9ffeb949-08b0-455d-9fe9-93cbcd98d2ad"
+      },
+      {
+        "id": "01674042-9b79-4f3c-a837-5cd98cd32378",
+        "rating": 52733,
+        "comments": "Could be better",
+        "created_at": "2023-10-02T08:53:02.080Z",
+        "updated_at": "2023-10-02T13:45:24.367Z",
+        "booking_id": "b3a1fd03-e4b2-4426-8133-d89bc4de28d7"
+      },
+      {
+        "id": "e5bec1fb-e1e7-4125-94df-787fa4a059a3",
+        "rating": 61087,
+        "comments": "Not satisfied",
+        "created_at": "2023-10-02T07:51:49.312Z",
+        "updated_at": "2023-10-02T09:42:11.016Z",
+        "booking_id": "374569b6-284d-4e1c-80a5-0004651ad51e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "034c3a5b-1a1e-4c16-ae83-4323e4dc4d4b",
+        "email": "Lucie.Kshlerin@roq.tech",
+        "firstName": "Brycen",
+        "lastName": "Larkin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99633560",
+        "tenantId": null
+      },
+      {
+        "reference": "0d980990-fe26-436b-8130-e890ab44d885",
+        "email": "Oleta_Klein@roq.tech",
+        "firstName": "Cody",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98068527",
+        "tenantId": null
+      },
+      {
+        "reference": "a28fa154-46e4-43f4-8998-71b804f8fb28",
+        "email": "Carson_Hane@roq.tech",
+        "firstName": "Lisandro",
+        "lastName": "Beatty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/241.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f110445c-00e9-43e5-91c7-5e8aa3cf8bf7",
+        "email": "Kaelyn48@roq.tech",
+        "firstName": "Jeffry",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84680548",
+        "tenantId": null
+      },
+      {
+        "reference": "2c50e557-b0c6-4c08-b4d6-5c7652ff67c9",
+        "email": "Rosanna.Romaguera@roq.tech",
+        "firstName": "Benjamin",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/5.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "a013d90f-50a2-4240-ab5c-721e0797139c",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 31686,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-03T06:01:19.987Z",
+        "updated_at": "2023-10-02T21:46:18.233Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "375c016a-9362-452e-85bf-61af79af8a42",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 79156,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-10-02T16:44:33.183Z",
+        "updated_at": "2023-10-02T07:37:39.255Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2171e62a-24d8-477e-9594-3a2c45f939ef",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 52913,
+        "color": "Green",
+        "license_plate": "123456",
+        "created_at": "2023-10-02T08:48:11.175Z",
+        "updated_at": "2023-10-03T01:42:41.278Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65883d39-73c6-4401-ab29-a95dea7c432a",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 38639,
+        "color": "Yellow",
+        "license_plate": "DEF987",
+        "created_at": "2023-10-03T01:20:48.472Z",
+        "updated_at": "2023-10-03T04:52:56.046Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "328c971c-8e48-4340-afb7-8ea8295a9f5b",
+        "make": "BMW",
+        "model": "X5",
+        "year": 27254,
+        "color": "Black",
+        "license_plate": "GHI654",
+        "created_at": "2023-10-03T06:17:41.010Z",
+        "updated_at": "2023-10-02T14:01:56.228Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "f5b41a2c-ff80-4b57-9940-1682de904a17",
+        "start_location": "Central Park",
+        "end_location": "Times Square",
+        "start_time": "2023-10-02T23:09:33.319Z",
+        "end_time": "2023-10-02T14:01:02.134Z",
+        "seats_available": 36816,
+        "created_at": "2023-10-02T17:05:49.515Z",
+        "updated_at": "2023-10-02T20:38:27.207Z",
+        "car_id": "a013d90f-50a2-4240-ab5c-721e0797139c"
+      },
+      {
+        "id": "0c81858c-699f-41fc-a223-06ba2740c834",
+        "start_location": "Santa Monica Pier",
+        "end_location": "Hollywood Walk of Fame",
+        "start_time": "2023-10-03T03:50:22.520Z",
+        "end_time": "2023-10-02T12:03:17.466Z",
+        "seats_available": 53637,
+        "created_at": "2023-10-03T04:06:39.794Z",
+        "updated_at": "2023-10-03T02:18:36.179Z",
+        "car_id": "328c971c-8e48-4340-afb7-8ea8295a9f5b"
+      },
+      {
+        "id": "5720f15c-68b8-4626-a299-0cf9949a0e5d",
+        "start_location": "Millennium Park",
+        "end_location": "Navy Pier",
+        "start_time": "2023-10-02T20:04:50.319Z",
+        "end_time": "2023-10-02T08:35:15.001Z",
+        "seats_available": 89578,
+        "created_at": "2023-10-03T00:43:20.989Z",
+        "updated_at": "2023-10-02T14:46:51.306Z",
+        "car_id": "a013d90f-50a2-4240-ab5c-721e0797139c"
+      },
+      {
+        "id": "4fa56320-65e2-4a7f-b161-0ea1c4059bfb",
+        "start_location": "Space Center Houston",
+        "end_location": "Johnson Space Center",
+        "start_time": "2023-10-03T00:51:27.871Z",
+        "end_time": "2023-10-03T05:35:46.721Z",
+        "seats_available": 13374,
+        "created_at": "2023-10-03T00:05:33.948Z",
+        "updated_at": "2023-10-03T03:17:00.082Z",
+        "car_id": "2171e62a-24d8-477e-9594-3a2c45f939ef"
+      },
+      {
+        "id": "738f07e1-0bcb-412a-8a1a-3fa2954d1990",
+        "start_location": "South Beach",
+        "end_location": "Art Deco Historic District",
+        "start_time": "2023-10-02T22:15:54.919Z",
+        "end_time": "2023-10-02T10:52:07.548Z",
+        "seats_available": 22573,
+        "created_at": "2023-10-03T06:56:55.724Z",
+        "updated_at": "2023-10-03T01:10:02.349Z",
+        "car_id": "a013d90f-50a2-4240-ab5c-721e0797139c"
+      }
+    ],
+    "booking": [
+      {
+        "id": "6f8278cc-a890-49ea-a774-32ba87d4ac9c",
+        "seat_count": 43625,
+        "status": "Confirmed",
+        "created_at": "2023-10-02T14:04:58.667Z",
+        "updated_at": "2023-10-02T15:17:18.587Z",
+        "ride_id": "5720f15c-68b8-4626-a299-0cf9949a0e5d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eda1e01d-0bd7-4027-a005-3c959530f786",
+        "seat_count": 2926,
+        "status": "Pending",
+        "created_at": "2023-10-02T09:19:13.293Z",
+        "updated_at": "2023-10-02T09:40:28.248Z",
+        "ride_id": "4fa56320-65e2-4a7f-b161-0ea1c4059bfb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53a7701d-bf53-4c1e-b090-870ed323b6e9",
+        "seat_count": 86815,
+        "status": "Cancelled",
+        "created_at": "2023-10-02T16:10:37.321Z",
+        "updated_at": "2023-10-02T14:29:27.791Z",
+        "ride_id": "738f07e1-0bcb-412a-8a1a-3fa2954d1990",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9aa14673-b2a1-462a-b05b-53b533a4da64",
+        "seat_count": 6480,
+        "status": "Completed",
+        "created_at": "2023-10-02T17:30:43.087Z",
+        "updated_at": "2023-10-03T00:26:01.271Z",
+        "ride_id": "738f07e1-0bcb-412a-8a1a-3fa2954d1990",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69a7f10c-e020-4fe8-9ca3-697c46ceec70",
+        "seat_count": 12083,
+        "status": "In Progress",
+        "created_at": "2023-10-02T21:46:45.761Z",
+        "updated_at": "2023-10-02T20:04:05.696Z",
+        "ride_id": "738f07e1-0bcb-412a-8a1a-3fa2954d1990",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "0ad8c8f0-78d3-42fa-b298-573aced7234d",
+        "rating": 74781,
+        "comments": "Great service!",
+        "created_at": "2023-10-02T21:38:55.507Z",
+        "updated_at": "2023-10-03T01:33:32.114Z",
+        "booking_id": "eda1e01d-0bd7-4027-a005-3c959530f786"
+      },
+      {
+        "id": "dffd4e98-0e5a-4ae6-9ba4-544a98c2412f",
+        "rating": 59124,
+        "comments": "Excellent experience",
+        "created_at": "2023-10-02T21:18:06.970Z",
+        "updated_at": "2023-10-03T04:32:14.357Z",
+        "booking_id": "53a7701d-bf53-4c1e-b090-870ed323b6e9"
+      },
+      {
+        "id": "548e129f-7792-45f6-bf34-b9efed4e53d0",
+        "rating": 51017,
+        "comments": "Highly recommended",
+        "created_at": "2023-10-02T22:02:29.387Z",
+        "updated_at": "2023-10-03T01:38:18.990Z",
+        "booking_id": "eda1e01d-0bd7-4027-a005-3c959530f786"
+      },
+      {
+        "id": "130da41f-7b07-428a-9158-71f50c07dfe5",
+        "rating": 45302,
+        "comments": "Could be better",
+        "created_at": "2023-10-02T09:10:47.702Z",
+        "updated_at": "2023-10-02T17:47:50.338Z",
+        "booking_id": "eda1e01d-0bd7-4027-a005-3c959530f786"
+      },
+      {
+        "id": "aa8d4a64-1a9b-4dd1-b2aa-dfbe38c3ae50",
+        "rating": 1525,
+        "comments": "Average service",
+        "created_at": "2023-10-02T08:31:36.822Z",
+        "updated_at": "2023-10-02T13:51:51.129Z",
+        "booking_id": "eda1e01d-0bd7-4027-a005-3c959530f786"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "96863b4b-1a56-482a-bff3-fb39fdf561d6",
+        "email": "Chesley_Quigley@roq.tech",
+        "firstName": "Mohammed",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cf719019-ce7e-48ec-b2f1-1e490e73355d",
+        "email": "Hallie.McGlynn69@roq.tech",
+        "firstName": "Larry",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/200.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0fb79d0e-06b4-4641-b42a-8e7de3130df6",
+        "email": "Dorcas.Schimmel@roq.tech",
+        "firstName": "Neil",
+        "lastName": "Larkin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/452.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "75641cfc-255c-41ee-aaec-855b73ad58d9",
+        "email": "Wilbert_Wehner@roq.tech",
+        "firstName": "Hubert",
+        "lastName": "Gutkowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/820.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "488a7e2b-d385-4128-a675-a2136cdb84f2",
+        "email": "Lolita_Stiedemann@roq.tech",
+        "firstName": "Stefanie",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52506321",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "10baf639-bd2f-40ee-974d-48d5ee906ef0",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 15097,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-02T09:09:38.881Z",
+        "updated_at": "2023-10-02T20:52:04.981Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93b302ed-ebfd-4a35-b561-c642b85ccbec",
+        "make": "Honda",
+        "model": "Accord",
+        "year": 66126,
+        "color": "Blue",
+        "license_plate": "XYZ789",
+        "created_at": "2023-10-02T07:51:12.076Z",
+        "updated_at": "2023-10-02T15:57:12.498Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f53a3353-e4ac-4d4f-bb0c-b2279537172d",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 62517,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "created_at": "2023-10-02T16:55:31.281Z",
+        "updated_at": "2023-10-02T11:42:20.840Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70de3cc3-0f4a-4f9e-b001-468beb348c57",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 57339,
+        "color": "Black",
+        "license_plate": "789XYZ",
+        "created_at": "2023-10-02T13:38:52.081Z",
+        "updated_at": "2023-10-02T21:15:46.952Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79c4b51a-1e38-4175-945a-cb2785adb090",
+        "make": "BMW",
+        "model": "X5",
+        "year": 15021,
+        "color": "White",
+        "license_plate": "456DEF",
+        "created_at": "2023-10-02T07:59:22.144Z",
+        "updated_at": "2023-10-03T03:02:13.344Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "51caf696-d869-421b-b3e1-d71208632fe0",
+        "start_location": "Central Park",
+        "end_location": "Times Square",
+        "start_time": "2023-10-02T10:50:32.060Z",
+        "end_time": "2023-10-02T09:40:15.351Z",
+        "seats_available": 27543,
+        "created_at": "2023-10-03T00:47:22.938Z",
+        "updated_at": "2023-10-03T00:25:28.851Z",
+        "car_id": "93b302ed-ebfd-4a35-b561-c642b85ccbec"
+      },
+      {
+        "id": "3951de17-7e67-4cd0-be35-f444481d97b2",
+        "start_location": "Santa Monica Pier",
+        "end_location": "Hollywood Walk of Fame",
+        "start_time": "2023-10-02T22:54:09.538Z",
+        "end_time": "2023-10-03T04:35:11.800Z",
+        "seats_available": 45393,
+        "created_at": "2023-10-03T00:21:34.120Z",
+        "updated_at": "2023-10-03T01:37:41.544Z",
+        "car_id": "93b302ed-ebfd-4a35-b561-c642b85ccbec"
+      },
+      {
+        "id": "d8c96fae-a5a4-4bb4-afec-a0438656fb04",
+        "start_location": "Millennium Park",
+        "end_location": "Navy Pier",
+        "start_time": "2023-10-03T06:18:53.069Z",
+        "end_time": "2023-10-02T21:47:09.539Z",
+        "seats_available": 10712,
+        "created_at": "2023-10-02T10:32:24.166Z",
+        "updated_at": "2023-10-03T02:59:40.458Z",
+        "car_id": "70de3cc3-0f4a-4f9e-b001-468beb348c57"
+      },
+      {
+        "id": "542ce8fe-e4f8-48e2-b9bf-c728d1524c06",
+        "start_location": "Space Center Houston",
+        "end_location": "NASA Johnson Space Center",
+        "start_time": "2023-10-03T03:30:54.592Z",
+        "end_time": "2023-10-03T05:26:02.748Z",
+        "seats_available": 74843,
+        "created_at": "2023-10-03T00:34:51.252Z",
+        "updated_at": "2023-10-02T20:32:30.134Z",
+        "car_id": "93b302ed-ebfd-4a35-b561-c642b85ccbec"
+      },
+      {
+        "id": "acd85d78-d73d-492e-9ef8-db6f44d75254",
+        "start_location": "Liberty Bell",
+        "end_location": "Independence Hall",
+        "start_time": "2023-10-03T05:55:03.062Z",
+        "end_time": "2023-10-02T17:31:59.314Z",
+        "seats_available": 73836,
+        "created_at": "2023-10-02T13:15:56.019Z",
+        "updated_at": "2023-10-02T14:43:40.412Z",
+        "car_id": "93b302ed-ebfd-4a35-b561-c642b85ccbec"
+      }
+    ],
+    "booking": [
+      {
+        "id": "4aa77191-25a6-4bec-a93b-59f44352f993",
+        "seat_count": 70009,
+        "status": "Confirmed",
+        "created_at": "2023-10-02T16:49:45.635Z",
+        "updated_at": "2023-10-02T07:37:34.192Z",
+        "ride_id": "3951de17-7e67-4cd0-be35-f444481d97b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fe3a2ef-e7d3-4d52-8144-3c9e46722d9c",
+        "seat_count": 71476,
+        "status": "Pending",
+        "created_at": "2023-10-02T09:32:12.617Z",
+        "updated_at": "2023-10-02T20:10:19.233Z",
+        "ride_id": "542ce8fe-e4f8-48e2-b9bf-c728d1524c06",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61138498-9194-4bad-ac11-1f2a9a0c475b",
+        "seat_count": 89339,
+        "status": "Cancelled",
+        "created_at": "2023-10-03T06:40:14.883Z",
+        "updated_at": "2023-10-02T20:41:02.726Z",
+        "ride_id": "542ce8fe-e4f8-48e2-b9bf-c728d1524c06",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7daa4192-71e0-4b6a-8364-428525b203d4",
+        "seat_count": 7967,
+        "status": "Completed",
+        "created_at": "2023-10-03T02:23:05.303Z",
+        "updated_at": "2023-10-03T00:46:28.728Z",
+        "ride_id": "51caf696-d869-421b-b3e1-d71208632fe0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18c2fcd0-3eef-4166-b1cc-93e302d9cc78",
+        "seat_count": 29821,
+        "status": "On Hold",
+        "created_at": "2023-10-03T05:37:35.015Z",
+        "updated_at": "2023-10-03T04:44:12.672Z",
+        "ride_id": "acd85d78-d73d-492e-9ef8-db6f44d75254",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "05ad6471-5cd0-4c7d-afe3-ba5bad29ba15",
+        "rating": 35644,
+        "comments": "Great service!",
+        "created_at": "2023-10-02T09:45:55.714Z",
+        "updated_at": "2023-10-02T15:49:38.282Z",
+        "booking_id": "61138498-9194-4bad-ac11-1f2a9a0c475b"
+      },
+      {
+        "id": "4cd02e74-4fa4-49e3-95dc-c9201e75c664",
+        "rating": 36933,
+        "comments": "Excellent experience",
+        "created_at": "2023-10-02T13:24:52.276Z",
+        "updated_at": "2023-10-03T03:30:41.841Z",
+        "booking_id": "2fe3a2ef-e7d3-4d52-8144-3c9e46722d9c"
+      },
+      {
+        "id": "5e50ae50-0578-4531-818c-92cc29214731",
+        "rating": 94900,
+        "comments": "Highly recommended",
+        "created_at": "2023-10-02T17:28:06.631Z",
+        "updated_at": "2023-10-03T01:56:06.288Z",
+        "booking_id": "61138498-9194-4bad-ac11-1f2a9a0c475b"
+      },
+      {
+        "id": "cb03c543-e54c-4961-84a4-87599b93b50a",
+        "rating": 77000,
+        "comments": "Could be better",
+        "created_at": "2023-10-03T06:23:07.507Z",
+        "updated_at": "2023-10-03T02:22:52.846Z",
+        "booking_id": "18c2fcd0-3eef-4166-b1cc-93e302d9cc78"
+      },
+      {
+        "id": "cfda1a00-3f30-4946-b9e0-b07b39928410",
+        "rating": 55486,
+        "comments": "Average service",
+        "created_at": "2023-10-02T22:42:45.907Z",
+        "updated_at": "2023-10-02T22:45:28.057Z",
+        "booking_id": "61138498-9194-4bad-ac11-1f2a9a0c475b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1119be00-27c3-43fc-8e97-0ad8a3da34cc",
+        "email": "Imani_Bartell@roq.tech",
+        "firstName": "Makenzie",
+        "lastName": "Anderson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35457550",
+        "tenantId": null
+      },
+      {
+        "reference": "4c242967-3f4c-41fa-9790-225d5fd21372",
+        "email": "Laurel66@roq.tech",
+        "firstName": "Camilla",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/75.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "51d6aab6-43f8-4a72-befa-6f1eedee1ba9",
+        "email": "Tobin35@roq.tech",
+        "firstName": "Kenya",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16369922",
+        "tenantId": null
+      },
+      {
+        "reference": "e642b6e7-d0c4-494f-8579-aea5df63b860",
+        "email": "Bobby_Schimmel76@roq.tech",
+        "firstName": "Katrine",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/542.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d42ac5db-25ac-44cb-9dcb-f92061853ae5",
+        "email": "Alyson65@roq.tech",
+        "firstName": "Shaina",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/687.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "e58d3c8a-246d-4b1b-b567-567aa147adff",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 5705,
+        "color": "Red",
+        "license_plate": "ABC123",
+        "created_at": "2023-10-02T11:25:06.913Z",
+        "updated_at": "2023-10-02T14:24:20.283Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "422e378c-07a3-4f28-9564-9579d5982578",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 38628,
+        "color": "Blue",
+        "license_plate": "XYZ456",
+        "created_at": "2023-10-02T18:04:39.120Z",
+        "updated_at": "2023-10-02T23:10:35.084Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d47b68d-0cb6-4117-832d-1db1dbd517fe",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 51345,
+        "color": "Green",
+        "license_plate": "123ABC",
+        "created_at": "2023-10-03T05:11:28.543Z",
+        "updated_at": "2023-10-02T12:11:06.627Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "973e425a-c805-408e-b63b-c41c4709302b",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 82481,
+        "color": "Black",
+        "license_plate": "456XYZ",
+        "created_at": "2023-10-02T09:33:42.309Z",
+        "updated_at": "2023-10-02T19:36:32.989Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec2a9fa2-e6c4-435b-aa94-795528ffd651",
+        "make": "BMW",
+        "model": "X5",
+        "year": 23962,
+        "color": "White",
+        "license_plate": "789DEF",
+        "created_at": "2023-10-02T20:09:21.018Z",
+        "updated_at": "2023-10-02T22:39:15.999Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ride": [
+      {
+        "id": "8359359f-8b32-4613-874f-d543d933e396",
+        "start_location": "Central Park",
+        "end_location": "Times Square",
+        "start_time": "2023-10-02T12:23:07.779Z",
+        "end_time": "2023-10-03T01:43:36.736Z",
+        "seats_available": 94337,
+        "created_at": "2023-10-02T20:52:46.812Z",
+        "updated_at": "2023-10-03T03:39:03.718Z",
+        "car_id": "973e425a-c805-408e-b63b-c41c4709302b"
+      },
+      {
+        "id": "b9a79dd3-8b32-4e0c-b772-cfb04e1bc357",
+        "start_location": "Santa Monica Pier",
+        "end_location": "Hollywood Walk of Fame",
+        "start_time": "2023-10-03T02:13:36.305Z",
+        "end_time": "2023-10-02T19:04:32.085Z",
+        "seats_available": 41740,
+        "created_at": "2023-10-02T22:53:55.280Z",
+        "updated_at": "2023-10-02T20:40:29.427Z",
+        "car_id": "2d47b68d-0cb6-4117-832d-1db1dbd517fe"
+      },
+      {
+        "id": "9b62134d-45d5-4b07-9746-5063b0b8d842",
+        "start_location": "Millennium Park",
+        "end_location": "Navy Pier",
+        "start_time": "2023-10-02T07:33:44.921Z",
+        "end_time": "2023-10-02T21:33:24.580Z",
+        "seats_available": 54058,
+        "created_at": "2023-10-02T22:12:34.961Z",
+        "updated_at": "2023-10-02T16:27:43.103Z",
+        "car_id": "422e378c-07a3-4f28-9564-9579d5982578"
+      },
+      {
+        "id": "d5f9f632-8bb1-46d8-b2a9-4fcace6a2f76",
+        "start_location": "Space Center Houston",
+        "end_location": "Johnson Space Center",
+        "start_time": "2023-10-02T18:00:05.799Z",
+        "end_time": "2023-10-03T03:00:59.713Z",
+        "seats_available": 97739,
+        "created_at": "2023-10-02T22:23:10.004Z",
+        "updated_at": "2023-10-02T15:29:09.589Z",
+        "car_id": "973e425a-c805-408e-b63b-c41c4709302b"
+      },
+      {
+        "id": "40b61fd9-0d8c-4419-b7a7-11d3213a02a8",
+        "start_location": "Grand Canyon",
+        "end_location": "Las Vegas Strip",
+        "start_time": "2023-10-03T00:59:13.441Z",
+        "end_time": "2023-10-03T06:40:13.579Z",
+        "seats_available": 39268,
+        "created_at": "2023-10-02T09:01:57.855Z",
+        "updated_at": "2023-10-02T08:54:34.393Z",
+        "car_id": "ec2a9fa2-e6c4-435b-aa94-795528ffd651"
+      }
+    ],
+    "booking": [
+      {
+        "id": "1b9da845-c02d-4c3b-a67c-66afa30a8c78",
+        "seat_count": 68102,
+        "status": "Confirmed",
+        "created_at": "2023-10-02T11:28:17.606Z",
+        "updated_at": "2023-10-02T07:52:24.259Z",
+        "ride_id": "40b61fd9-0d8c-4419-b7a7-11d3213a02a8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19617b3a-66c8-464f-9464-4b6c06af53dc",
+        "seat_count": 43384,
+        "status": "Pending",
+        "created_at": "2023-10-03T00:41:52.222Z",
+        "updated_at": "2023-10-03T03:22:48.291Z",
+        "ride_id": "40b61fd9-0d8c-4419-b7a7-11d3213a02a8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b5933ae-7fda-40af-b37c-4460e2f27bb4",
+        "seat_count": 93986,
+        "status": "Cancelled",
+        "created_at": "2023-10-02T18:41:04.610Z",
+        "updated_at": "2023-10-03T04:24:33.897Z",
+        "ride_id": "9b62134d-45d5-4b07-9746-5063b0b8d842",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16ab0487-ee9a-4b7b-b6d6-c2aee1081be8",
+        "seat_count": 49503,
+        "status": "Completed",
+        "created_at": "2023-10-03T00:43:00.974Z",
+        "updated_at": "2023-10-02T10:38:13.589Z",
+        "ride_id": "40b61fd9-0d8c-4419-b7a7-11d3213a02a8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c51fd41a-4e17-40c5-bb71-c7ef82e0d5e7",
+        "seat_count": 939,
+        "status": "In Progress",
+        "created_at": "2023-10-02T23:02:10.778Z",
+        "updated_at": "2023-10-02T18:49:09.887Z",
+        "ride_id": "40b61fd9-0d8c-4419-b7a7-11d3213a02a8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "feedback": [
+      {
+        "id": "d7948c03-d950-4d5c-afac-f577af60ce35",
+        "rating": 43942,
+        "comments": "Great service!",
+        "created_at": "2023-10-02T20:01:26.974Z",
+        "updated_at": "2023-10-02T17:28:52.429Z",
+        "booking_id": "1b5933ae-7fda-40af-b37c-4460e2f27bb4"
+      },
+      {
+        "id": "2dd547c2-8072-4f7c-8e8f-c61c84f3b058",
+        "rating": 45648,
+        "comments": "Excellent experience",
+        "created_at": "2023-10-02T08:34:23.298Z",
+        "updated_at": "2023-10-02T11:00:13.851Z",
+        "booking_id": "1b9da845-c02d-4c3b-a67c-66afa30a8c78"
+      },
+      {
+        "id": "ca807f27-3a54-455c-85c4-6d3a9e45bd87",
+        "rating": 61780,
+        "comments": "Could be better",
+        "created_at": "2023-10-03T00:51:05.719Z",
+        "updated_at": "2023-10-02T10:36:07.921Z",
+        "booking_id": "1b5933ae-7fda-40af-b37c-4460e2f27bb4"
+      },
+      {
+        "id": "e6305a9b-d1d8-4ca5-b203-0e0913a800e5",
+        "rating": 26788,
+        "comments": "Highly recommended",
+        "created_at": "2023-10-02T14:52:34.773Z",
+        "updated_at": "2023-10-02T17:06:27.952Z",
+        "booking_id": "19617b3a-66c8-464f-9464-4b6c06af53dc"
+      },
+      {
+        "id": "d3aa23dd-4e73-4486-bbc5-a992dfee0950",
+        "rating": 77436,
+        "comments": "Average service",
+        "created_at": "2023-10-03T01:59:49.977Z",
+        "updated_at": "2023-10-02T15:19:58.399Z",
+        "booking_id": "19617b3a-66c8-464f-9464-4b6c06af53dc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e2b9757d-bec4-4920-8418-e762dc1c973f",
+        "email": "Zion.Jones@roq.tech",
+        "firstName": "Lonny",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40935446",
+        "tenantId": null
+      },
+      {
+        "reference": "40f60039-fa17-43f4-b535-ccc99225714d",
+        "email": "Geo69@roq.tech",
+        "firstName": "Lucas",
+        "lastName": "Carter",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/72.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "52104a5d-cd99-48bd-9d98-f844be301bbc",
+        "email": "Mertie69@roq.tech",
+        "firstName": "Susie",
+        "lastName": "Schuster",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52628967",
+        "tenantId": null
+      },
+      {
+        "reference": "6354e39c-f943-4bfe-ab31-e00523296559",
+        "email": "Camron_Mitchell@roq.tech",
+        "firstName": "Benton",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1099.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "83e7d77f-674c-46fa-8490-a7097cb7e7b3",
+        "email": "Emil10@roq.tech",
+        "firstName": "Maynard",
+        "lastName": "Mante",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34823079",
+        "tenantId": null
+      }
+    ]
+  }
+]
